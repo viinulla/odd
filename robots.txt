@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://soyrros.github.io/odd/sitemap.xml
