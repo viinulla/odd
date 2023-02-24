@@ -5,6 +5,7 @@ import theme from "./theme.js";
 
 export default defineUserConfig({
   base: '/odd/', //部署站点的基础路径
+  dest: "dist",
   locales: {
     "/": {
       lang: "zh-CN",

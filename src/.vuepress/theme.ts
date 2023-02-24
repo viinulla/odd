@@ -10,6 +10,7 @@ export default hopeTheme({
   iconAssets: "iconfont",
   logo: "/logo.svg",
   repo: "https://github.com/soyrros/odd",
+  docsDir: "src",
   themeColor: {
     blue: "#2196f3",
     red: "#f26d6d",
