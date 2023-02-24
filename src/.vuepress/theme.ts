@@ -30,13 +30,13 @@ export default hopeTheme({
     }
   },
   plugins: {
-    // comment: {
-    //   provider: "Giscus",
-    //   repo: "vuepress-theme-hope/giscus-discussions",
-    //   repoId: "R_kgDOG_Pt2A",
-    //   category: "Announcements",
-    //   categoryId: "DIC_kwDOG_Pt2M4COD69",
-    // },
+    comment: {
+      provider: "Giscus",
+      repo: "soyrros/odd",
+      repoId: "R_kgDOJAoN3g",
+      category: "Announcements",
+      categoryId: "DIC_kwDOJAoN3s4CUbpK",
+    },
     mdEnhance: {
       align: true,
       attrs: true,
