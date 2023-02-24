@@ -33,7 +33,6 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
           npm run docs:build
-          > src/.vuepress/dist/.nojekyll
 
       - name: Deploy; publish the dist to gh-pages.
         uses: JamesIves/github-pages-deploy-action@v4
