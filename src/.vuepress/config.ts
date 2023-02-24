@@ -5,7 +5,7 @@ import theme from "./theme.js";
 
 export default defineUserConfig({
   base: '/odd/', //部署站点的基础路径
-  dest: "dist",
+  dest: "dist", // 默认，src/.vuepress/dist 。如果指定，则发布yaml也要修改
   locales: {
     "/": {
       lang: "zh-CN",

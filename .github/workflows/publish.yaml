@@ -31,11 +31,13 @@ jobs:
       - name: Build src to generate dist.
         env:
           NODE_OPTIONS: --max_old_space_size=8192
+        #github page默认你的页面使用jekyll构建的，如果没有.nojekyll文件会导致你请求静态资源404。所以如果你不是使用jekyll构建的，在提交前一定要把.nojekyll加入你的根目录
         run: |-
           npm run docs:build
+          > dist/.nojekyll 
 
       - name: Deploy; publish the dist to gh-pages.
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: src/.vuepress/dist
+          folder: dist
