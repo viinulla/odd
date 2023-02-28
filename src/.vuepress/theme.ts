@@ -78,7 +78,48 @@ export default hopeTheme({
       tabs: true,
       vPre: true,
       vuePlayground: true,
+    },
+    // npm -g install vue-pwa-asset-generator
+    // vue-pwa-generator -a logo.png -o assets/icon
+    pwa: {
+      favicon: "/favicon.ico",
+      themeColor: "#fb9b5f",
+      cacheHTML: false,
+      maxSize: 3072,
+      apple: {
+        icon: "/assets/icon/apple-touch-icon-152x152.png",
+        statusBarColor: "black",
+      },
+      msTile: {
+        image: "/assets/icon/ms-icon-144x144.png",
+        color: "#ffffff",
+      },
+      manifest: {
+        icons: [
+          {
+            src: "/assets/icon/chrome-maskable-512x512.png",
+            sizes: "512x512",
+            purpose: "maskable",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/chrome-maskable-192x192.png",
+            sizes: "192x192",
+            purpose: "maskable",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/chrome-512x512.png",
+            sizes: "512x512",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
+        ],
+      },
     }
   },
-
 });
