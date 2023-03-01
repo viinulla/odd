@@ -2,7 +2,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { navbar_zh, navbar_en, sidebar_zh, sidebar_en } from './configs/index.js';
 
 export default hopeTheme({
-  hostname: "https://soyrros.github.io/odd",
+  hostname: "https://soyrros.github.io",
   author: {
     name: "0x0",
     url: "https://soyrros.github.io"
@@ -82,6 +82,7 @@ export default hopeTheme({
     // npm -g install vue-pwa-asset-generator
     // vue-pwa-generator -a logo.png -o assets/icon
     pwa: {
+      appendBase: true,
       favicon: "/favicon.ico",
       themeColor: "#fb9b5f",
       cacheHTML: false,
