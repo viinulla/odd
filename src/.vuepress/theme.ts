@@ -2,7 +2,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { navbar_zh, navbar_en, sidebar_zh, sidebar_en } from './configs/index.js';
 
 export default hopeTheme({
-  hostname: "https://soyrros.github.io",
+  hostname: "https://soyrros.github.io/odd",
   author: {
     name: "0x0",
     url: "https://soyrros.github.io"
