@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://soyrros.github.io/odd/sitemap.xml
+Sitemap: https://viinulla.github.io/odd/sitemap.xml
