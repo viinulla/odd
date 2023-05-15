@@ -2,14 +2,14 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { navbar_zh, navbar_en, sidebar_zh, sidebar_en } from './configs/index.js';
 
 export default hopeTheme({
-  hostname: "https://soyrros.github.io",
+  hostname: "https://viinulla.github.io",
   author: {
-    name: "0x0",
-    url: "https://soyrros.github.io"
+    name: "VIIN",
+    url: "https://viinulla.github.io"
   },
   iconAssets: "iconfont",
   logo: "/logo.svg",
-  repo: "https://github.com/soyrros/odd",
+  repo: "https://github.com/viinulla/odd",
   docsDir: "src",
   themeColor: {
     blue: "#2196f3",
@@ -32,7 +32,7 @@ export default hopeTheme({
   plugins: {
     comment: {
       provider: "Giscus",
-      repo: "soyrros/odd",
+      repo: "viinulla/odd",
       repoId: "R_kgDOJAoN3g",
       category: "Announcements",
       categoryId: "DIC_kwDOJAoN3s4CUbpK",
