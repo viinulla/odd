@@ -100,7 +100,7 @@ features:
     link: https://theme-hope.vuejs.press/guide/feature/
 
 copyright: false
-footer: 🚀 <a href="https://vuejs.press">vuepress  |  <a/>🎨<a href="https://theme-hope.vuejs.press/" target="_blank">Hope  |  </a>🧱<a href="https://soyrros.github.io" target="_blank"> 0x0 </a>
+footer: 🚀 <a href="https://vuejs.press">vuepress  |  <a/>🎨<a href="https://theme-hope.vuejs.press/" target="_blank">Hope  |  </a>🧱<a href="https://viinulla.github.io" target="_blank"> VIIN </a>
 ---
 
 This is an example of a project homepage. You can place your main content here.
